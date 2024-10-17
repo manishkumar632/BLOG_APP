@@ -1,9 +1,11 @@
 import React from "react";
-
+import Posts from '../components/Posts'
 const Home = () => {
     return (
-        <div>Home</div>
-    );
+        <div className="pt-24">
+			<Posts />
+        </div>
+    )
 };
 
 export default Home;
